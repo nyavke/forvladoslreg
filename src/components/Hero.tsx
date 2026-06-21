@@ -5,7 +5,7 @@ import logo from '../assets/logo.png'
 const features = [
   {
     icon: GraduationCapIcon,
-    title: 'Практические курсы',
+    title: 'Курсы',
     text: 'Учитесь на реальных задачах и проектах',
     tone: 'purple',
   },
@@ -17,7 +17,7 @@ const features = [
   },
   {
     icon: HeadphonesIcon,
-    title: 'Поддержка 24/7',
+    title: 'Поддержка',
     text: 'Наша команда всегда рядом и готова помочь',
     tone: 'pink',
   },

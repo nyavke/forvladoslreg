@@ -230,6 +230,7 @@
 .feature__title {
   font-size: 14px;
   font-weight: 600;
+  line-height: 1.25;
 }
 
 .feature__text {
