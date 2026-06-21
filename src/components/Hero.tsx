@@ -35,13 +35,6 @@ export default function Hero() {
         </div>
       </header>
 
-      <span className="hero__badge">
-        <span className="hero__badge-emoji" aria-hidden="true">
-          🚀
-        </span>
-        Начните путь в программировании
-      </span>
-
       <h1 className="hero__title">
         Создайте будущее
         <br />
