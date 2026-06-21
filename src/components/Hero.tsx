@@ -1,5 +1,6 @@
-import { CodeIcon, GraduationCapIcon, ShieldIcon, HeadphonesIcon } from './icons'
+import { GraduationCapIcon, ShieldIcon, HeadphonesIcon } from './icons'
 import Illustration from './Illustration'
+import logo from '../assets/logo.png'
 
 const features = [
   {
@@ -27,13 +28,8 @@ export default function Hero() {
     <section className="hero">
       <header className="hero__top">
         <div className="brand">
-          <div className="brand__logo">
-            <CodeIcon className="brand__logo-icon" />
-          </div>
-          <div className="brand__text">
-            <span className="brand__name">CodeCore</span>
-            <span className="brand__tagline">Учиться. Создавать. Увлекать.</span>
-          </div>
+          <img className="brand__img" src={logo} alt="CodeCore" />
+          <span className="brand__tagline">Учиться. Создавать. Увлекать.</span>
         </div>
       </header>
 
