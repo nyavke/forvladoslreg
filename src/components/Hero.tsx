@@ -28,7 +28,9 @@ export default function Hero() {
     <section className="hero">
       <header className="hero__top">
         <div className="brand">
-          <img className="brand__img" src={logo} alt="CodeCore" />
+          <span className="brand__logo">
+            <img className="brand__img" src={logo} alt="CodeCore" />
+          </span>
           <span className="brand__tagline">Учиться. Создавать. Увлекать.</span>
         </div>
       </header>
